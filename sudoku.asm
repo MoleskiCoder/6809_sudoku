@@ -49,7 +49,7 @@ print_box_break_vertical
 	rts
 
 print_box_break_horizontal
-	ldx	1f
+	ldx	#1f
 	jsr	outstr
 	rts
 1	fcn	" --------+---------+--------"
