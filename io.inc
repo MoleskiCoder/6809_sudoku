@@ -15,4 +15,5 @@ outstr	pshu	a
         beq     1f
         bsr     outchr
         bra     1b
-1	rts
+1	pulu	a
+	rts
